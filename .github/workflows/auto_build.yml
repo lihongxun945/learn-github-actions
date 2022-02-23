@@ -28,5 +28,5 @@ jobs:
           # Determines if force push is used
           force: 1 # optional
           # Determines if --tags is used
-          tags: auto-build-${{ steps.date.outputs.date }}
+          tags: 1
           # Directory to change to before pushing.
