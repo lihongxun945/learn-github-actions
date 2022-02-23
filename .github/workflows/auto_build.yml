@@ -10,6 +10,8 @@ jobs:
           node-version: '14'
       - run: npm install
       - run: npm run build
-      - run: git add .
-      - run: git commit -m 'build'
-      - run: git push
+      - uses: swinton/commit@v2.0.0
+        with:
+          files: build
+          commit-message:  'auto build'
+      - uses: ludeeus/action-push@0.0.1
