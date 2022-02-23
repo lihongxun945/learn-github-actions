@@ -1,4 +1,4 @@
-name: auto run build
+name: auto-run-build
 on: [push]
 jobs:
   auto run build:
