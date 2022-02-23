@@ -26,7 +26,7 @@ jobs:
           # Allow empty commit
           empty: # optional
           # Determines if force push is used
-          force: 1 # optional
+          force: true # optional
           # Determines if --tags is used
-          tags: 1
+          tags: true
           # Directory to change to before pushing.
